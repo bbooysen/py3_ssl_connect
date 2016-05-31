@@ -2,6 +2,7 @@
 #     send an email notification.
 # In this example the output is: valid from, valid until, full dict, and number of days until expiry.
 # This can be the basis of a cron job to send an email notification if a cert expires within x days.
+#
 # A cron job would require some handling of the SMTP password?
 # To-do:  better error checking, make it less gullible. try/except the SMTP connection.
 
